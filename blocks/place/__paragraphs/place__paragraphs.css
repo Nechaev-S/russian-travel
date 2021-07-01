@@ -1,0 +1,19 @@
+.place__paragraphs {
+  margin: 0;
+  /* gap: 25px; */
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .place__paragraphs {
+
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .place__paragraphs {
+
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .place__paragraphs {
+    margin: 20px 0 0 0;
+      }
+}
