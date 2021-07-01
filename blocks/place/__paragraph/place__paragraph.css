@@ -19,13 +19,13 @@
   .place__paragraph {
     max-width: 352px;
     font-size: 16px;
-    line-height: 1.6em;
+    line-height: 1.63em;
     margin: 0px 0 28px 0;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .place__paragraph {
-    margin: 20px auto 28px;
+    margin: 32px auto 28px;
     max-width: 288px;
     font-size: 16px;
   }

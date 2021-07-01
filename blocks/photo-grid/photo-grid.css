@@ -4,12 +4,11 @@
   gap: 16px;
   grid-template-columns: repeat(4, 284px);
   grid-template-rows: auto;
-  margin: 92px auto 92px auto;
+  margin: 96px auto 92px auto;
 }
 @media (min-width: 1024px) and (max-width: 1279px) {
   .photo-grid {
     grid-template-columns: repeat(3, 3fr);
-    grid-template-rows: auto;
     gap: 14px;
     margin: 94px 48px 92px 48px;
   }
@@ -17,14 +16,12 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   .photo-grid {
     grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: auto;
     margin: 88px 24px 88px 24px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .photo-grid {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
     margin: 65px auto 15px;
     gap: 12px;
     max-width: 288px;
