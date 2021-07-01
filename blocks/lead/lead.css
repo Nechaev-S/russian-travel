@@ -4,20 +4,24 @@
   padding-top: 24px;
   align-items: center;
   max-width: 984px;
-  margin: 0 auto;
+  margin: 39px auto;
+  padding: 0;
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .lead {
-    max-width: 320px;
+    max-width: 928px;
+    margin: 32px auto;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .lead {
     max-width: 768px;
+    margin: 32px auto;
   }
 }
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .lead {
-    max-width: 928px;
+    max-width: 320px;
+    margin: 17px auto;
   }
 }

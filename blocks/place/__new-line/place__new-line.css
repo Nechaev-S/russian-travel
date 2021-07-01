@@ -1,0 +1,8 @@
+.place__new-line {
+  display: none;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .place__new-line {
+    display: block;
+  }
+}
