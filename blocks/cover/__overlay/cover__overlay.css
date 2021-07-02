@@ -7,6 +7,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-decoration: none;
+  text-decoration-color: white;
 }
 .cover__overlay:hover {
   background: rgba(42, 44, 47, .8);
